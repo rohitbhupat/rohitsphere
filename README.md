@@ -16,16 +16,17 @@ This is my personal portfolio website built using the **MERN stack** and **AWS s
 - Amazon S3 (static hosting)
 - CloudFront (CDN)
 - API Gateway + Lambda (contact form handler)
-- DynamoDB (optional – form submissions)
+- DynamoDB (form submissions)
 
 ---
 
 ## 🧑‍💻 About Me
 
 - 🎓 BScIT + MScIT Graduate
-- ✅ AWS Certified Cloud Practitioner (CLF-C02)
-- 📛 AWS Educate Badges (2 completed, 3rd in progress)
-- 📁 Projects: Artiv (MScIT), ResQNow (AWS serverless)
+- ⌚ Currently pursuing AWS Certified Cloud Practitioner (CLF-C02)
+- 📛 AWS re/Start Graduate – trained in cloud fundamentals, Linux, Python, networking, and AWS core services
+- 🗄️ AWS Educate Badges (Getting Started with Databases)
+- 📁 Projects: Artiv - Bid Online(Art auction website), ResQNow (AWS serverless)
 - 🧪 Internships: 6 months in UI/UX, 1 month in Data Science
 
 ---
@@ -48,7 +49,7 @@ This is my personal portfolio website built using the **MERN stack** and **AWS s
 
 ## 📬 Contact
 
-Use the contact form on the website, or reach out via [LinkedIn](https://linkedin.com/in/yourprofile) or [email@example.com].
+Use the contact form on the website, or reach out via LinkedIn: https://www.linkedin.com/in/rohit-bhupat-554325237/ or rohitbhupat300@gmail.com.
 
 ---
 
