@@ -26,7 +26,7 @@ This is my personal portfolio website built using the **MERN stack** and **AWS s
 - ⌚ Currently pursuing AWS Certified Cloud Practitioner (CLF-C02)
 - 📛 AWS re/Start Graduate – trained in cloud fundamentals, Linux, Python, networking, and AWS core services
 - 🗄️ AWS Educate Badges (Getting Started with Databases)
-- 📁 Projects: Artiv - Bid Online(Art auction website), ResQNow (AWS serverless)
+- 📁 Projects: Artiv - Bid Online (Art auction website), ResQNow (AWS serverless)
 - 🧪 Internships: 6 months in UI/UX, 1 month in Data Science
 
 ---
