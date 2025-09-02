@@ -7,7 +7,7 @@ const projects = [
         title: "ResQNow",
         type: "AWS Serverless Project",
         desc: "Built an emergency alert platform using AWS (Cognito, Lambda, DynamoDB, S3, SNS, CloudFront). Enabled real-time SOS alerts with a live admin map for tracking incidents. Designed fully serverless architecture with secure authentication and scalability.",
-        img: "/project1.jpg",
+        img: "image.png",
         live: "#",
         code: "#",
     },
