@@ -70,4 +70,8 @@ _Add website screenshots or GIFs here to show off the UI._
   │   ├── assets/
   ├── .env
   ├── package.json
+<<<<<<< HEAD
   └── README.md
+=======
+  └── README.md
+>>>>>>> 1cae360 (added files)
