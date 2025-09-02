@@ -5,7 +5,7 @@ export default function Header() {
 
     return (
         <header className="sticky top-0 z-50 bg-[rgba(11,15,20,0.6)] backdrop-blur-md border-b border-white/10 px-10 py-5 flex items-center justify-between">
-            <a href="#home" className="font-extrabold tracking-wider text-white">RB</a>
+            <a href="#home" className="font-extrabold tracking-wider text-white">ROHITSPHERE</a>
 
             {/* Desktop Nav */}
             <nav className="hidden md:flex gap-6 text-white/90">
