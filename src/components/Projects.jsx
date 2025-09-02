@@ -1,24 +1,26 @@
 import React from "react";
 import { motion } from "framer-motion";
+import resqnowImg from "../assets/resqnow.png"
+import artivImg from "../assets/artiv.png"
 
 const projects = [
     {
         id: 1,
-        title: "ResQNow",
+        title: "ResQNow - Disaster Management",
         type: "AWS Serverless Project",
-        desc: "Built an emergency alert platform using AWS (Cognito, Lambda, DynamoDB, S3, SNS, CloudFront). Enabled real-time SOS alerts with a live admin map for tracking incidents. Designed fully serverless architecture with secure authentication and scalability.",
-        img: "image.png",
-        live: "#",
-        code: "#",
+        desc: "Built an emergency alert platform using AWS (Cognito, Lambda, DynamoDB, S3, SNS, CloudFront, AppSync). Enabled real-time SOS alerts with a live admin map for tracking incidents. Designed fully serverless architecture with secure authentication and scalability.",
+        img: resqnowImg,
+        live: "https://dx6y4f94wre1x.cloudfront.net/",
+        code: "https://github.com/rohitbhupat/resqnow",
     },
     {
         id: 2,
-        title: "Artiv",
+        title: "Artiv - Bid Online",
         type: "MScIT Project",
-        desc: "Developed a creative web-based platform for interactive art experiences. Focused on UI/UX design, frontend interactivity, and database-driven dynamic content. Built with modern JavaScript and database technologies for smooth user experience.",
-        img: "/project2.jpg",
-        live: "#",
-        code: "#",
+        desc: "Developed a creative web-based platform for interactive art experiences with AR integration and 360° artwork viewing. Implemented real-time bidding features for digital auctions, enhancing user engagement. Focused on modern UI/UX design, frontend interactivity, and database-driven dynamic content using JavaScript and database technologies.",
+        img: artivImg,
+        live: "https://www.artiv.co.in/",
+        code: "https://github.com/rohitbhupat/artiv-auction",
     },
     // {
     //     id: 3,
@@ -46,9 +48,15 @@ export default function Projects() {
                         {projects.map((p) => (
                             <div
                                 key={p.id}
-                                className="border border-white/10 rounded-xl overflow-hidden shadow hover:shadow-sky-400/20 transition"
+                                className="border border-white/10 rounded-xl overflow-hidden shadow hover:shadow-sky-400/20 transition transform hover:scale-[1.01]"
                             >
-                                <img src={p.img} alt={p.title} className="w-full h-56 object-cover" />
+                                <div className="overflow-hidden">
+                                    <img
+                                        src={p.img}
+                                        alt={p.title}
+                                        className="w-full h-56 object-cover transition-transform duration-500 hover:scale-110"
+                                    />
+                                </div>
                                 <div className="p-6">
                                     <h3 className="text-xl font-semibold mb-2">{p.title}</h3>
                                     <p className="text-sm text-sky-300 mb-3">{p.type}</p>
@@ -66,7 +74,7 @@ export default function Projects() {
                                             className="px-4 py-2 rounded-lg bg-gray-700 hover:bg-gray-600 transition"
                                             target="_blank"
                                         >
-                                            Code
+                                            GitHub
                                         </a>
                                     </div>
                                 </div>

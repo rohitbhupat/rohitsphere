@@ -9,7 +9,7 @@ export default function Header() {
 
             {/* Desktop Nav */}
             <nav className="hidden md:flex gap-6 text-white/90">
-                {["home", "about", "skills", "projects", "certifications", "contact"].map((item) => (
+                {["home", "about", "skills", "projects", "certifications", "resume", "contact"].map((item) => (
                     <a key={item} href={`#${item}`} className="hover:text-cyan-300 transition">
                         {item.charAt(0).toUpperCase() + item.slice(1)}
                     </a>
@@ -26,7 +26,7 @@ export default function Header() {
             </button>
             {open && (
                 <ul className="absolute top-14 right-4 bg-[#0f141b] border border-white/10 rounded-lg p-4 flex flex-col gap-3 md:hidden">
-                    {["home", "about", "skills", "projects", "certifications", "contact"].map((item) => (
+                    {["home", "about", "skills", "projects", "certifications", "resume", "contact"].map((item) => (
                         <a
                             key={item}
                             href={`#${item}`}

@@ -1,7 +1,7 @@
 import React from "react";
 import { FileDown } from "lucide-react";
 import { motion } from "framer-motion";
-
+import resumePdf from "../assets/Rohit_Bhupat_Resume.pdf"
 
 export default function Resume() {
     return (
@@ -19,7 +19,7 @@ export default function Resume() {
                         certifications, and experience.
                     </p>
                     <a
-                        href="/resume.pdf"
+                        href={resumePdf}
                         download
                         className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-sky-600 hover:bg-sky-500 transition"
                     >
