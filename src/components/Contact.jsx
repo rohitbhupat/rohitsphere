@@ -2,6 +2,23 @@ import React from "react";
 import { motion } from "framer-motion";
 
 export default function Contact() {
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+
+        const name = e.target[0].value;
+        const email = e.target[1].value;
+        const message = e.target[2].value;
+
+        const res = await fetch("https://etpztioaii.execute-api.ap-south-1.amazonaws.com/contact/portfolio_contact", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ name, email, message }),
+        });
+
+        const data = await res.json();
+        alert(data.message || "Message sent!");
+    };
+
     return (
         <section id="contact" className="py-20 bg-black text-white">
             <motion.div
@@ -21,7 +38,7 @@ export default function Contact() {
                         Contact
                     </motion.h2>
 
-                    <motion.form
+                    <motion.form onSubmit={handleSubmit}
                         className="bg-gray-900 rounded-2xl p-8 shadow-lg space-y-6"
                         initial={{ opacity: 0, scale: 0.9 }}
                         whileInView={{ opacity: 1, scale: 1 }}

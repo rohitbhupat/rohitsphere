@@ -14,7 +14,7 @@ export default function Footer() {
                 <p>© {new Date().getFullYear()} Rohit Bhupat. All rights reserved.</p>
                 <div className="flex justify-center gap-6 mt-3">
                     <a
-                        href="https://github.com/yourgithub"
+                        href="https://github.com/rohitbhupat"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-400 hover:text-white transition"
@@ -22,7 +22,7 @@ export default function Footer() {
                         <FaGithub size={22} />
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/yourlinkedin"
+                        href="https://www.linkedin.com/in/rohit-bhupat-554325237/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-400 hover:text-sky-400 transition"
