@@ -10,7 +10,7 @@ const projects = [
         type: "AWS Serverless Project",
         desc: "Built an emergency alert platform using AWS (Cognito, Lambda, DynamoDB, S3, SNS, CloudFront, AppSync). Enabled real-time SOS alerts with a live admin map for tracking incidents. Designed fully serverless architecture with secure authentication and scalability.",
         img: resqnowImg,
-        live: "https://dx6y4f94wre1x.cloudfront.net/",
+        live: "https://d1xqanq559pt1x.cloudfront.net/",
         code: "https://github.com/rohitbhupat/resqnow",
     },
     {

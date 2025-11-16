@@ -9,7 +9,7 @@ export default function Contact() {
         const email = e.target[1].value;
         const message = e.target[2].value;
 
-        const res = await fetch("https://etpztioaii.execute-api.ap-south-1.amazonaws.com/contact/portfolio_contact", {
+        const res = await fetch("https://7067cffcki.execute-api.ap-south-1.amazonaws.com/contact/portfolio_contact", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ name, email, message }),
