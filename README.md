@@ -43,7 +43,7 @@ This is my personal portfolio website built using the **MERN stack** and **AWS s
 
 ## 🌐 Live Demo
 
-> [View Portfolio Website](https://your-cloudfront-link-or-custom-domain.com)
+> [View Portfolio Website](https://d36f5pfidwtoib.cloudfront.net/)
 
 ---
 
