@@ -2,9 +2,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import awsCertificate from "../assets/clf-c02.png";
-import restartbadge from "../assets/aws-re-start-graduate.png"
-import awsbadge from "../assets/clf-c02_badge.png"
+import awsCertificate from "../asset/clf-c02.png";
+import restartbadge from "../asset/aws-re-start-graduate.png"
+import awsbadge from "../asset/clf-c02_badge.png"
 const certs = [
     {
         id: 1,

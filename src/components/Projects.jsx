@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import resqnowImg from "../assets/resqnow.png"
-import artivImg from "../assets/artiv.png"
+import resqnowImg from "../asset/resqnow.png"
+import artivImg from "../asset/artiv.png"
 
 const projects = [
     {

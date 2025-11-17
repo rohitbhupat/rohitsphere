@@ -1,7 +1,7 @@
 import React from "react";
 import { FileDown } from "lucide-react";
 import { motion } from "framer-motion";
-import resumePdf from "../assets/Rohit_Bhupat_Resume.pdf"
+import resumePdf from "../asset/Rohit_Bhupat_Resume.pdf"
 
 export default function Resume() {
     return (
